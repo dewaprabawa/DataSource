@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "DataSource/**/*.{swift}"
+  # spec.exclude_files = "DataSource/**/*.{swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "DataSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  # spec.resources = "DataSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
