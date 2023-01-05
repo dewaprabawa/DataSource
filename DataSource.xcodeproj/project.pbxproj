@@ -25,7 +25,7 @@
 		690057BE2966C63B00246E80 /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		690057BF2966C63B00246E80 /* DataSource.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DataSource.docc; sourceTree = "<group>"; };
 		690057D02966C87000246E80 /* DatabaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseError.swift; sourceTree = "<group>"; };
-		690057D22966C88100246E80 /* LocaleGameDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocaleGameDataSource.swift; path = Service/LocaleGameDataSource.swift; sourceTree = "<group>"; };
+		690057D22966C88100246E80 /* LocaleGameDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleGameDataSource.swift; sourceTree = "<group>"; };
 		690057D42966C8A800246E80 /* FavEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavEntity.swift; sourceTree = "<group>"; };
 		690057D52966C8A800246E80 /* GameEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEntity.swift; sourceTree = "<group>"; };
 		690057D82966C8AF00246E80 /* URLerror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLerror.swift; sourceTree = "<group>"; };
@@ -70,82 +70,18 @@
 		690057BD2966C63B00246E80 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				690057CB2966C73900246E80 /* Local */,
-				690057C72966C70200246E80 /* Remote */,
+				690057D02966C87000246E80 /* DatabaseError.swift */,
+				690057D22966C88100246E80 /* LocaleGameDataSource.swift */,
+				690057D42966C8A800246E80 /* FavEntity.swift */,
+				690057D52966C8A800246E80 /* GameEntity.swift */,
+				690057D82966C8AF00246E80 /* URLerror.swift */,
+				690057DB2966C8B500246E80 /* RemoteDataSource.swift */,
+				690057DA2966C8B500246E80 /* UrlHelper.swift */,
+				690057DE2966C8BB00246E80 /* GameResponses.swift */,
 				690057BE2966C63B00246E80 /* DataSource.h */,
 				690057BF2966C63B00246E80 /* DataSource.docc */,
 			);
 			path = DataSource;
-			sourceTree = "<group>";
-		};
-		690057C72966C70200246E80 /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-				690057CA2966C71F00246E80 /* Exception */,
-				690057C92966C71800246E80 /* Service */,
-				690057C82966C70C00246E80 /* Entity */,
-			);
-			path = Remote;
-			sourceTree = "<group>";
-		};
-		690057C82966C70C00246E80 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				690057DE2966C8BB00246E80 /* GameResponses.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		690057C92966C71800246E80 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				690057DB2966C8B500246E80 /* RemoteDataSource.swift */,
-				690057DA2966C8B500246E80 /* UrlHelper.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		690057CA2966C71F00246E80 /* Exception */ = {
-			isa = PBXGroup;
-			children = (
-				690057D82966C8AF00246E80 /* URLerror.swift */,
-			);
-			path = Exception;
-			sourceTree = "<group>";
-		};
-		690057CB2966C73900246E80 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				690057CF2966C78900246E80 /* Exception */,
-				690057CD2966C75000246E80 /* Service */,
-				690057CC2966C74800246E80 /* Entity */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		690057CC2966C74800246E80 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				690057D42966C8A800246E80 /* FavEntity.swift */,
-				690057D52966C8A800246E80 /* GameEntity.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		690057CD2966C75000246E80 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				690057D22966C88100246E80 /* LocaleGameDataSource.swift */,
-			);
-			name = Service;
-			sourceTree = "<group>";
-		};
-		690057CF2966C78900246E80 /* Exception */ = {
-			isa = PBXGroup;
-			children = (
-				690057D02966C87000246E80 /* DatabaseError.swift */,
-			);
-			path = Exception;
 			sourceTree = "<group>";
 		};
 		9BF33258F97C1770AD4BA811 /* Frameworks */ = {
@@ -162,7 +98,6 @@
 				C78FA5983839EA416537807C /* Pods-DataSource.debug.xcconfig */,
 				824389B0FA060FA8384133D2 /* Pods-DataSource.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
