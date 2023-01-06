@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "osls" => "balipastika@gmail.com" }
+  spec.author             = { "osls" => "gedeagusprabawadewa@gmail.com" }
   # Or just: spec.author    = "osls"
   # spec.authors            = { "osls" => "balipastika@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/osls"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DataSource/**/*.swift"
+  spec.source_files  = "DataSource/**/*.{swift}"
   # spec.exclude_files = "DataSource/**/*.{swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "DataSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "DataSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

@@ -70,18 +70,82 @@
 		690057BD2966C63B00246E80 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				690057D02966C87000246E80 /* DatabaseError.swift */,
-				690057D22966C88100246E80 /* LocaleGameDataSource.swift */,
-				690057D42966C8A800246E80 /* FavEntity.swift */,
-				690057D52966C8A800246E80 /* GameEntity.swift */,
-				690057D82966C8AF00246E80 /* URLerror.swift */,
-				690057DB2966C8B500246E80 /* RemoteDataSource.swift */,
-				690057DA2966C8B500246E80 /* UrlHelper.swift */,
-				690057DE2966C8BB00246E80 /* GameResponses.swift */,
+				69FE643C2968413600497F88 /* Locale */,
+				69FE643D2968414500497F88 /* Remote */,
 				690057BE2966C63B00246E80 /* DataSource.h */,
 				690057BF2966C63B00246E80 /* DataSource.docc */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		69FE643C2968413600497F88 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				69FE643E2968415700497F88 /* Error */,
+				69FE643F2968416100497F88 /* Service */,
+				69FE64402968417D00497F88 /* Entities */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		69FE643D2968414500497F88 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				69FE64412968418C00497F88 /* Error */,
+				69FE64422968419800497F88 /* Service */,
+				69FE6443296841A100497F88 /* Entities */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		69FE643E2968415700497F88 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				690057D02966C87000246E80 /* DatabaseError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		69FE643F2968416100497F88 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				690057D22966C88100246E80 /* LocaleGameDataSource.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		69FE64402968417D00497F88 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				690057D42966C8A800246E80 /* FavEntity.swift */,
+				690057D52966C8A800246E80 /* GameEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		69FE64412968418C00497F88 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				690057D82966C8AF00246E80 /* URLerror.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		69FE64422968419800497F88 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				690057DB2966C8B500246E80 /* RemoteDataSource.swift */,
+				690057DA2966C8B500246E80 /* UrlHelper.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		69FE6443296841A100497F88 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				690057DE2966C8BB00246E80 /* GameResponses.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		9BF33258F97C1770AD4BA811 /* Frameworks */ = {
