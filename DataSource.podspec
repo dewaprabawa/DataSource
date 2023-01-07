@@ -31,11 +31,15 @@ Pod::Spec.new do |s|
   s.source = {
     :git => "https://github.com/dewaprabawa/DataSource.git", 
     :tag => "#{s.version}",
-    :commit => "3bc22c80604ab0c8c5b773348d7d220a2ff63452" 
   }
-  s.source_files  = "DataSource/Classes/**/*.{h,m,swift}"
+  s.source_files  = "DataSource/**/*.{h,m,swift}"
   s.swift_version = "5.5"
   s.framework  = "UIKit"
   s.requires_arc = true
+
+  s.dependency 'RealmSwift'
+  s.dependency 'Alamofire'
+  s.dependency 'RxSwift', '6.5.0'
+  s.dependency 'RxCocoa', '6.5.0'
 
 end
